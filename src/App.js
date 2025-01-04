@@ -98,8 +98,8 @@ const App = () => {
     calories: 0,
   });
   const [showTooltip, setShowTooltip] = useState(false);
-  const [filterType, setFilterType] = useState('');
-  const [searchQuery, setSearchQuery] = useState('');
+  // const [filterType, setFilterType] = useState('');
+  // const [searchQuery, setSearchQuery] = useState('');
   const [quantityMap, setQuantityMap] = useState({}); // Store quantities by product ID
 
   // Fetching all products dynamically from JSON files
