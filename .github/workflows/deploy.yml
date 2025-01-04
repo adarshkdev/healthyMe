@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest  # Run on the latest Ubuntu environment
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
@@ -27,6 +27,6 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        personal_token: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub's automatic token to authenticate
+        personal_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub Actions will inject the token automatically
         branch: gh-pages  # The branch where GitHub Pages will be deployed
         folder: build  # The build directory that should be deployed
