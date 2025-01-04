@@ -1,0 +1,366 @@
+[
+  {
+    "id": 16,
+    "type": "fruit",
+    "product": "Apple",
+    "nutrients": {
+      "protein": 0.3,
+      "carbs": 25,
+      "fat": 0.3,
+      "fiber": 4.4,
+      "sugars": 19,
+      "calories": 52
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 17,
+    "type": "fruit",
+    "product": "Banana",
+    "nutrients": {
+      "protein": 1.1,
+      "carbs": 23,
+      "fat": 0.3,
+      "fiber": 2.6,
+      "sugars": 12,
+      "calories": 89
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 18,
+    "type": "fruit",
+    "product": "Orange",
+    "nutrients": {
+      "protein": 0.9,
+      "carbs": 12,
+      "fat": 0.2,
+      "fiber": 2.4,
+      "sugars": 9,
+      "calories": 47
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 19,
+    "type": "fruit",
+    "product": "Strawberries",
+    "nutrients": {
+      "protein": 0.8,
+      "carbs": 7.7,
+      "fat": 0.3,
+      "fiber": 2,
+      "sugars": 4.9,
+      "calories": 32
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 20,
+    "type": "fruit",
+    "product": "Blueberries",
+    "nutrients": {
+      "protein": 0.7,
+      "carbs": 14,
+      "fat": 0.3,
+      "fiber": 2.4,
+      "sugars": 9.7,
+      "calories": 57
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 21,
+    "type": "fruit",
+    "product": "Mango",
+    "nutrients": {
+      "protein": 0.8,
+      "carbs": 15,
+      "fat": 0.3,
+      "fiber": 1.6,
+      "sugars": 13.7,
+      "calories": 60
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 22,
+    "type": "fruit",
+    "product": "Grapes",
+    "nutrients": {
+      "protein": 0.6,
+      "carbs": 17,
+      "fat": 0.2,
+      "fiber": 0.9,
+      "sugars": 16.3,
+      "calories": 69
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 23,
+    "type": "fruit",
+    "product": "Pineapple",
+    "nutrients": {
+      "protein": 0.5,
+      "carbs": 13,
+      "fat": 0.1,
+      "fiber": 1.4,
+      "sugars": 9.9,
+      "calories": 50
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 24,
+    "type": "fruit",
+    "product": "Kiwi",
+    "nutrients": {
+      "protein": 1.1,
+      "carbs": 15,
+      "fat": 0.5,
+      "fiber": 3,
+      "sugars": 9,
+      "calories": 61
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 25,
+    "type": "fruit",
+    "product": "Watermelon",
+    "nutrients": {
+      "protein": 0.6,
+      "carbs": 8,
+      "fat": 0.2,
+      "fiber": 0.4,
+      "sugars": 6.2,
+      "calories": 30
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 26,
+    "type": "fruit",
+    "product": "Papaya",
+    "nutrients": {
+      "protein": 0.5,
+      "carbs": 11,
+      "fat": 0.2,
+      "fiber": 1.7,
+      "sugars": 5.9,
+      "calories": 43
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 27,
+    "type": "fruit",
+    "product": "Avocado",
+    "nutrients": {
+      "protein": 2.0,
+      "carbs": 9,
+      "fat": 15.0,
+      "fiber": 7,
+      "sugars": 0.7,
+      "calories": 160
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 28,
+    "type": "fruit",
+    "product": "Pear",
+    "nutrients": {
+      "protein": 0.4,
+      "carbs": 15,
+      "fat": 0.1,
+      "fiber": 3.1,
+      "sugars": 9.8,
+      "calories": 57
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 29,
+    "type": "fruit",
+    "product": "Peach",
+    "nutrients": {
+      "protein": 0.9,
+      "carbs": 9,
+      "fat": 0.3,
+      "fiber": 1.5,
+      "sugars": 8.4,
+      "calories": 39
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 30,
+    "type": "fruit",
+    "product": "Cherries",
+    "nutrients": {
+      "protein": 1.0,
+      "carbs": 16,
+      "fat": 0.3,
+      "fiber": 2.1,
+      "sugars": 13,
+      "calories": 63
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 31,
+    "type": "fruit",
+    "product": "Plum",
+    "nutrients": {
+      "protein": 0.7,
+      "carbs": 11,
+      "fat": 0.3,
+      "fiber": 1.4,
+      "sugars": 9.9,
+      "calories": 46
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 32,
+    "type": "fruit",
+    "product": "Pomegranate",
+    "nutrients": {
+      "protein": 1.7,
+      "carbs": 19,
+      "fat": 0.4,
+      "fiber": 4,
+      "sugars": 14,
+      "calories": 83
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 33,
+    "type": "fruit",
+    "product": "Blackberries",
+    "nutrients": {
+      "protein": 2.0,
+      "carbs": 10,
+      "fat": 0.5,
+      "fiber": 5.3,
+      "sugars": 4.9,
+      "calories": 43
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 34,
+    "type": "fruit",
+    "product": "Raspberries",
+    "nutrients": {
+      "protein": 1.5,
+      "carbs": 12,
+      "fat": 0.7,
+      "fiber": 6.5,
+      "sugars": 4.4,
+      "calories": 52
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 35,
+    "type": "fruit",
+    "product": "Fig",
+    "nutrients": {
+      "protein": 0.8,
+      "carbs": 19,
+      "fat": 0.2,
+      "fiber": 2.9,
+      "sugars": 16.3,
+      "calories": 74
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 36,
+    "type": "fruit",
+    "product": "Cantaloupe",
+    "nutrients": {
+      "protein": 0.8,
+      "carbs": 9,
+      "fat": 0.2,
+      "fiber": 0.9,
+      "sugars": 8.2,
+      "calories": 34
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 37,
+    "type": "fruit",
+    "product": "Grapefruit",
+    "nutrients": {
+      "protein": 0.8,
+      "carbs": 9,
+      "fat": 0.1,
+      "fiber": 1.4,
+      "sugars": 6.9,
+      "calories": 42
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 38,
+    "type": "fruit",
+    "product": "Lemon",
+    "nutrients": {
+      "protein": 1.1,
+      "carbs": 9,
+      "fat": 0.3,
+      "fiber": 2.8,
+      "sugars": 2.5,
+      "calories": 29
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 39,
+    "type": "fruit",
+    "product": "Dragon Fruit",
+    "nutrients": {
+      "protein": 1.2,
+      "carbs": 13,
+      "fat": 0.6,
+      "fiber": 3,
+      "sugars": 8.6,
+      "calories": 50
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 40,
+    "type": "fruit",
+    "product": "Lychee",
+    "nutrients": {
+      "protein": 0.8,
+      "carbs": 17,
+      "fat": 0.4,
+      "fiber": 1.6,
+      "sugars": 9.2,
+      "calories": 66
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 41,
+    "type": "fruit",
+    "product": "Guava",
+    "nutrients": {
+      "protein": 2.6,
+      "carbs": 14,
+      "fat": 0.9,
+      "fiber": 5.4,
+      "sugars": 5.4,
+      "calories": 68
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  }
+]

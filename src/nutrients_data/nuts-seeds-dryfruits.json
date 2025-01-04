@@ -1,0 +1,366 @@
+[
+  {
+    "id": 79,
+    "type": "dryfruits",
+    "product": "Almonds (Badam)",
+    "nutrients": {
+      "protein": 21.2,
+      "carbs": 21.7,
+      "fat": 49.9,
+      "fiber": 12.2,
+      "sugars": 3.9,
+      "calories": 579
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 80,
+    "type": "dryfruits",
+    "product": "Cashews (Kaju)",
+    "nutrients": {
+      "protein": 18.2,
+      "carbs": 30.2,
+      "fat": 43.9,
+      "fiber": 3.3,
+      "sugars": 5.2,
+      "calories": 553
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 81,
+    "type": "nuts",
+    "product": "Walnuts (Akhrot)",
+    "nutrients": {
+      "protein": 15.0,
+      "carbs": 14.0,
+      "fat": 65.2,
+      "fiber": 6.7,
+      "sugars": 2.6,
+      "calories": 654
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 82,
+    "type": "dryfruits",
+    "product": "Pistachios (Pista)",
+    "nutrients": {
+      "protein": 20.2,
+      "carbs": 28.0,
+      "fat": 45.4,
+      "fiber": 10.6,
+      "sugars": 7.7,
+      "calories": 562
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 83,
+    "type": "nuts",
+    "product": "Peanuts (Moongfali)",
+    "nutrients": {
+      "protein": 25.0,
+      "carbs": 16.1,
+      "fat": 49.2,
+      "fiber": 8.5,
+      "sugars": 3.8,
+      "calories": 567
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 84,
+    "type": "seeds",
+    "product": "Chia Seeds (Chia Beej)",
+    "nutrients": {
+      "protein": 16.5,
+      "carbs": 42.1,
+      "fat": 30.7,
+      "fiber": 34.4,
+      "sugars": 0,
+      "calories": 486
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 85,
+    "type": "seeds",
+    "product": "Flax Seeds (Alsi Beej)",
+    "nutrients": {
+      "protein": 18.3,
+      "carbs": 28.9,
+      "fat": 42.2,
+      "fiber": 27.3,
+      "sugars": 1.6,
+      "calories": 534
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 86,
+    "type": "seeds",
+    "product": "Sunflower Seeds (Surajmukhi Beej)",
+    "nutrients": {
+      "protein": 20.8,
+      "carbs": 20.0,
+      "fat": 51.5,
+      "fiber": 8.6,
+      "sugars": 2.6,
+      "calories": 584
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 87,
+    "type": "seeds",
+    "product": "Pumpkin Seeds (Kaddu Beej)",
+    "nutrients": {
+      "protein": 29.8,
+      "carbs": 10.7,
+      "fat": 49.1,
+      "fiber": 6.0,
+      "sugars": 1.4,
+      "calories": 574
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 88,
+    "type": "seeds",
+    "product": "Hemp Seeds (Hemp Beej)",
+    "nutrients": {
+      "protein": 31.6,
+      "carbs": 8.7,
+      "fat": 48.8,
+      "fiber": 4.0,
+      "sugars": 1.5,
+      "calories": 567
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 89,
+    "type": "seeds",
+    "product": "Sesame Seeds (Til Beej)",
+    "nutrients": {
+      "protein": 17.0,
+      "carbs": 23.5,
+      "fat": 49.7,
+      "fiber": 11.8,
+      "sugars": 0.3,
+      "calories": 573
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 90,
+    "type": "nuts",
+    "product": "Coconut (Nariyal)",
+    "nutrients": {
+      "protein": 3.3,
+      "carbs": 15.2,
+      "fat": 33.5,
+      "fiber": 9.0,
+      "sugars": 6.2,
+      "calories": 354
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 91,
+    "type": "nuts",
+    "product": "Macadamia Nuts (Macadamia)",
+    "nutrients": {
+      "protein": 7.9,
+      "carbs": 13.8,
+      "fat": 75.8,
+      "fiber": 8.6,
+      "sugars": 4.6,
+      "calories": 718
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 92,
+    "type": "nuts",
+    "product": "Brazil Nuts (Brazil Nut)",
+    "nutrients": {
+      "protein": 14.3,
+      "carbs": 12.3,
+      "fat": 66.4,
+      "fiber": 7.5,
+      "sugars": 2.3,
+      "calories": 659
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 93,
+    "type": "nuts",
+    "product": "Pine Nuts (Chilgoza)",
+    "nutrients": {
+      "protein": 13.7,
+      "carbs": 13.1,
+      "fat": 68.0,
+      "fiber": 3.7,
+      "sugars": 3.6,
+      "calories": 673
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 94,
+    "type": "seeds",
+    "product": "Apricot Kernels (Khubani Beej)",
+    "nutrients": {
+      "protein": 22.0,
+      "carbs": 21.3,
+      "fat": 47.0,
+      "fiber": 12.0,
+      "sugars": 0.0,
+      "calories": 600
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 95,
+    "type": "seeds",
+    "product": "Watermelon Seeds (Tarbooj Beej)",
+    "nutrients": {
+      "protein": 28.0,
+      "carbs": 15.0,
+      "fat": 49.0,
+      "fiber": 8.0,
+      "sugars": 1.0,
+      "calories": 556
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 96,
+    "type": "seeds",
+    "product": "Alfalfa Seeds (Alfalfa Beej)",
+    "nutrients": {
+      "protein": 19.6,
+      "carbs": 5.8,
+      "fat": 4.4,
+      "fiber": 2.0,
+      "sugars": 0.7,
+      "calories": 204
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 97,
+    "type": "dryfruits",
+    "product": "Figs (Anjeer)",
+    "nutrients": {
+      "protein": 3.0,
+      "carbs": 63.9,
+      "fat": 0.9,
+      "fiber": 9.8,
+      "sugars": 47.9,
+      "calories": 249
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 98,
+    "type": "dryfruits",
+    "product": "Dates (Khajoor)",
+    "nutrients": {
+      "protein": 2.5,
+      "carbs": 75.0,
+      "fat": 0.2,
+      "fiber": 8.0,
+      "sugars": 63.4,
+      "calories": 282
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 99,
+    "type": "dryfruits",
+    "product": "Raisins (Kishmish)",
+    "nutrients": {
+      "protein": 3.1,
+      "carbs": 79.5,
+      "fat": 0.5,
+      "fiber": 3.7,
+      "sugars": 59.2,
+      "calories": 299
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 100,
+    "type": "dryfruits",
+    "product": "Dried Apricots (Khubani)",
+    "nutrients": {
+      "protein": 3.4,
+      "carbs": 62.0,
+      "fat": 0.5,
+      "fiber": 7.3,
+      "sugars": 53.0,
+      "calories": 241
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 101,
+    "type": "dryfruits",
+    "product": "Dried Mango (Aam Sutra)",
+    "nutrients": {
+      "protein": 2.5,
+      "carbs": 74.5,
+      "fat": 0.5,
+      "fiber": 4.5,
+      "sugars": 62.0,
+      "calories": 315
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 102,
+    "type": "dryfruits",
+    "product": "Dried Plums (Aloo Bukhara)",
+    "nutrients": {
+      "protein": 2.2,
+      "carbs": 63.9,
+      "fat": 0.4,
+      "fiber": 7.1,
+      "sugars": 38.0,
+      "calories": 240
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 103,
+    "type": "dryfruits",
+    "product": "Dried Papaya (Papita)",
+    "nutrients": {
+      "protein": 1.0,
+      "carbs": 73.3,
+      "fat": 0.4,
+      "fiber": 5.5,
+      "sugars": 64.0,
+      "calories": 285
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  },
+  {
+    "id": 104,
+    "type": "dryfruits",
+    "product": "Dried Pear (Nashpati)",
+    "nutrients": {
+      "protein": 2.2,
+      "carbs": 73.6,
+      "fat": 0.5,
+      "fiber": 9.5,
+      "sugars": 58.4,
+      "calories": 249
+    },
+    "image": "https://thumbs.dreamstime.com/b/plan-your-meal-infographic-dish-chart-icons-healthy-food-dieting-concept-65730074.jpg"
+  }
+]
