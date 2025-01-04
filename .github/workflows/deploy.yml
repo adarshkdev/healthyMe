@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: '16'  # Use the appropriate version of Node.js for your React app
 
@@ -25,7 +25,7 @@ jobs:
       run: npm run build  # Ensure your React app is built
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         personal_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub Actions will inject the token automatically
         branch: gh-pages  # The branch where GitHub Pages will be deployed
