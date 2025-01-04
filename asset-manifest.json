@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/healthyMe/static/css/main.82784592.css",
-    "main.js": "/healthyMe/static/js/main.8dc7c7e1.js",
+    "main.js": "/healthyMe/static/js/main.c1e3e883.js",
     "index.html": "/healthyMe/index.html",
     "main.82784592.css.map": "/healthyMe/static/css/main.82784592.css.map",
-    "main.8dc7c7e1.js.map": "/healthyMe/static/js/main.8dc7c7e1.js.map"
+    "main.c1e3e883.js.map": "/healthyMe/static/js/main.c1e3e883.js.map"
   },
   "entrypoints": [
     "static/css/main.82784592.css",
-    "static/js/main.8dc7c7e1.js"
+    "static/js/main.c1e3e883.js"
   ]
 }
