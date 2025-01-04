@@ -2,15 +2,17 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 // Nutrient Calculation Function
-const calculateTotalNutrients = (products) => {
+const calculateTotalNutrients = (products, quantityMap) => {
   return products.reduce(
     (acc, product) => {
-      if (!product || product === null || product === undefined || !product.nutrients) {
+      if (!product || !product.nutrients) {
         return acc;
       }
-      const { protein = 0, carbs = 0, fat = 0, fiber = 0, sugars = 0, calories = 0 } = product.nutrients;
-      const quantity = product.quantity || 0;
 
+      const { protein = 0, carbs = 0, fat = 0, fiber = 0, sugars = 0, calories = 0 } = product.nutrients;
+      const quantity = quantityMap[product.id] || 0;
+
+      // Add nutrients multiplied by quantity
       acc.protein += protein * quantity;
       acc.carbs += carbs * quantity;
       acc.fat += fat * quantity;
@@ -32,7 +34,9 @@ const calculateTotalNutrients = (products) => {
 };
 
 // Card Component to display all nutrients
-const ProductCard = ({ product, onQuantityChange }) => {
+const ProductCard = React.memo(({ product, quantityMap, onQuantityChange }) => {
+  const quantity = quantityMap[product.id] || 0;
+
   return (
     <div className="card">
       <img src={product.image} alt={product.product} />
@@ -41,50 +45,62 @@ const ProductCard = ({ product, onQuantityChange }) => {
         <p>{product.type}</p>
         <input
           type="number"
-          value={product.quantity || 0}
+          value={quantity === 0 ? '' : quantity} // If quantity is 0, show empty field
           min="0"
-          onChange={(e) => onQuantityChange(product.id, Math.max(0, parseInt(e.target.value)))}
+          onChange={(e) => {
+            const newQuantity = Math.max(0, parseInt(e.target.value) || 0);
+            onQuantityChange(product.id, newQuantity); // Only update the quantity for the specific product
+          }}
+          placeholder="0"
         />
         <div className="card-nutrients">
           <div className="nutrient-item">
             <div className="nutrient-icon">🍗</div>
-            <div>Protein: {(product.quantity > 0 ? product.nutrients.protein * product.quantity : product.nutrients.protein).toFixed(2)}g</div>
+            <div>Protein: {quantity > 0 ? (product.nutrients.protein * quantity).toFixed(2): (product.nutrients.protein).toFixed(2) }g</div>
           </div>
           <div className="nutrient-item">
             <div className="nutrient-icon">🍞</div>
-            <div>Carbs: {(product.quantity > 0 ? product.nutrients.carbs * product.quantity : product.nutrients.carbs).toFixed(2)}g</div>
+            <div>Carbs: {quantity > 0 ? (product.nutrients.carbs * quantity).toFixed(2): (product.nutrients.carbs).toFixed(2)}g</div>
           </div>
           <div className="nutrient-item">
             <div className="nutrient-icon">🥑</div>
-            <div>Fat: {(product.quantity > 0 ? product.nutrients.fat * product.quantity : product.nutrients.fat).toFixed(2)}g</div>
+            <div>Fat: {quantity > 0 ? (product.nutrients.fat * quantity).toFixed(2): (product.nutrients.fat).toFixed(2)}g</div>
           </div>
           <div className="nutrient-item">
             <div className="nutrient-icon">🥦</div>
-            <div>Fiber: {(product.quantity > 0 ? product.nutrients.fiber * product.quantity : product.nutrients.fiber).toFixed(2)}g</div>
+            <div>Fiber: {quantity > 0 ? (product.nutrients.fiber * quantity).toFixed(2): (product.nutrients.fiber).toFixed(2)}g</div>
           </div>
           <div className="nutrient-item">
             <div className="nutrient-icon">🍬</div>
-            <div>Sugars: {(product.quantity > 0 ? product.nutrients.sugars * product.quantity : product.nutrients.sugars).toFixed(2)}g</div>
+            <div>Sugars: {quantity > 0 ? (product.nutrients.sugars * quantity).toFixed(2): (product.nutrients.sugars).toFixed(2)}g</div>
           </div>
           <div className="nutrient-item">
             <div className="nutrient-icon">🔥</div>
-            <div>Calories: {(product.quantity > 0 ? product.nutrients.calories * product.quantity : product.nutrients.calories).toFixed(2)} kcal</div>
+            <div>Calories: {quantity > 0 ? (product.nutrients.calories * quantity).toFixed(2):  (product.nutrients.calories).toFixed(2)} kcal</div>
           </div>
         </div>
       </div>
     </div>
   );
-};
+});
 
 // Main App Component
 const App = () => {
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [totalNutrients, setTotalNutrients] = useState(null);
+  const [totalNutrients, setTotalNutrients] = useState({
+    protein: 0,
+    carbs: 0,
+    fat: 0,
+    fiber: 0,
+    sugars: 0,
+    calories: 0,
+  });
   const [showTooltip, setShowTooltip] = useState(false);
   const [filterType, setFilterType] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
+  const [quantityMap, setQuantityMap] = useState({}); // Store quantities by product ID
 
   // Fetching all products dynamically from JSON files
   useEffect(() => {
@@ -92,22 +108,23 @@ const App = () => {
       return r.keys().map(r).flat().filter(item => JSON.stringify(item) !== '{}');
     };
     const productsData = importAll(require.context('./nutrients_data', false, /\.json$/));
-    console.log(productsData);
     setProducts(productsData);
     setFilteredProducts(productsData);
   }, []);
 
   const handleQuantityChange = (id, quantity) => {
-    const updatedProducts = products.map((product) =>
-      product.id === id ? { ...product, quantity } : product
-    );
-    setProducts(updatedProducts);
-    setFilteredProducts(updatedProducts);
+    // Update the quantity map for the specific product
+    setQuantityMap((prevQuantityMap) => ({
+      ...prevQuantityMap,
+      [id]: quantity,
+    }));
   };
 
   const handleFilter = (type) => {
     if (type) {
-      setFilteredProducts(products.filter(product => product.type === type));
+      const filtered = products.filter(product => product.type === type);
+      setFilteredProducts(filtered);
+      setCurrentIndex(0); // Reset the current index after filtering
     } else {
       setFilteredProducts(products);
     }
@@ -119,12 +136,15 @@ const App = () => {
       product.product.toLowerCase().includes(searchText)
     );
     setFilteredProducts(filtered);
+    setCurrentIndex(0); // Reset the current index after search
   };
 
   const calculateTotal = () => {
-    const total = calculateTotalNutrients(filteredProducts);
-    setTotalNutrients(total);
-    setShowTooltip(true);
+    // Use 'products' for the total calculation
+    const total = calculateTotalNutrients(products, quantityMap);
+    console.log("Total Nutrients Calculated:", total);  // Debugging the calculated total
+    setTotalNutrients(total);  // Set the total nutrients state
+    setShowTooltip(true);  // Show the tooltip with the total
   };
 
   const closeTooltip = () => {
@@ -141,6 +161,8 @@ const App = () => {
 
   // Get distinct types for filter, excluding null/undefined types
   const productTypes = [...new Set(products.map((product) => product.type).filter(type => type !== null && type !== undefined))];
+
+  const currentProduct = filteredProducts[currentIndex];
 
   return (
     <div className="App">
@@ -166,8 +188,9 @@ const App = () => {
         <div className="card-container">
           {filteredProducts.length > 0 && (
             <ProductCard
-              key={filteredProducts[currentIndex].id}
-              product={filteredProducts[currentIndex]}
+              key={currentProduct.id}
+              product={currentProduct}
+              quantityMap={quantityMap}
               onQuantityChange={handleQuantityChange} />
           )}
         </div>
@@ -203,7 +226,7 @@ const App = () => {
             </div>
             <div className="tooltip-item">
               <div className="nutrient-icon">🔥</div>
-              <div>Calories: {totalNutrients.calories.toFixed(2)}kcal</div>
+              <div>Calories: {totalNutrients.calories.toFixed(2)} kcal</div>
             </div>
           </div>
         </div>
